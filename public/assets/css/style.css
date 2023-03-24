@@ -1,0 +1,134 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f0f1fb;
+}
+
+/* Header */
+
+.navbar {
+  border-bottom: 2px solid #e3e1ef;
+}
+
+.container {
+  background-color: transparent;
+  padding: 12px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+  padding-right: 30px;
+  border-right: 2px solid #e1e3ef;
+}
+
+.btn {
+  padding: 8px 25px;
+  border-radius: 30px;
+  border: 2px solid #e1e3ef;
+  color: black;
+}
+
+/* Hero Home */
+
+.container-fluid {
+  background-color: white;
+  padding: 3% 0;
+  padding-bottom: 0 !important;
+}
+
+.hero-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text h2 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.hero-text h3 {
+  font-size: 40px;
+}
+
+.img-sarung {
+  width: 270px;
+}
+.img-baju {
+  height: 450px;
+}
+
+/* Content Home */
+
+.content {
+  padding-bottom: 20px;
+}
+
+.content h2 {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #e1e3ef;
+  border-bottom: 2px solid #e1e3ef;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.search-pro {
+  text-align: end;
+  padding: 15px 0;
+}
+
+.search {
+  padding:10px 15px;
+	border:2px solid #dbdbdb;
+  border-radius: 20px;
+  font-size: 16px;
+  width: 25%;
+}
+
+.card-img-top {
+  height: 250px;
+  padding: 10px;
+}
+
+.content-card {
+  display: flex;
+}
+.content-card .card {
+  margin: 0 10px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card-body {
+  padding-top: 20px !important;
+}
+.card-body .card-title {
+  font-size: 20px;
+}
+.card-body .card-price{
+  text-align: right;  
+  font-size: 18px;
+}
+
+/* Content Product */
+
+.product h2 {
+  text-align: center;
+  margin: 10%;
+  font-size: 40px;
+}
+
+/* Footer */
+
+.card-footer {
+  padding: 20px;
+}
+
+.footer {
+  border-top: 2px solid #afafaf;
+  border-bottom: 2px solid #afafaf;
+  padding: 10px;
+}
